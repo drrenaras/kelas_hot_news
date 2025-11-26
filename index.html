@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kelas Hot News - Portal Seleb</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #fce4ec;
+    }
+    header {
+        background: linear-gradient(to right, #ff66b2, #4dd2ff);
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    nav {
+        background: #ff66b2;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .headline {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    .headline img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .article {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    .card {
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    .card img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    footer {
+        margin-top: 30px;
+        background: #4dd2ff;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+    .sosmed img {
+        width: 40px;
+        margin-top: 10px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .article {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>KELAS HOT NEWS – SEBELAS LIMA</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Seleb</a>
+    <a href="#">Trending</a>
+    <a href="#">Famous</a>
+    <a href="#">Di buat oleh cowoknya Larasati Laudya Bella</a>
+</nav>
+
+<div class="container">
+
+    <!-- HEADLINE UTAMA -->
+    <div class="headline">
+        <img src="kelas5.jpg" alt="kelas-gen-z">
+        <h2>Kelas Gen Z SMA N 2 Jadi Sorotan! Paling Populer & Penuh Aktivitas Kreatif</h2>
+        <p>
+            Kelas anak Gen Z di SMA Negeri 2 kini menjadi perbincangan hangat. Dengan kreativitas tinggi, gaya belajar modern, 
+            serta aktivitas kelas yang unik dan penuh keceriaan, kelas ini dijuluki sebagai “Kelas Hot News”. 
+            Banyak siswa dari kelas lain penasaran dengan cara belajar serta suasana kelas yang kekinian.
+        </p>
+    </div>
+
+    <!-- 3 GAMBAR BERITA -->
+    <div class="article">
+
+        <div class="card">
+            <img src="kelas1.jpg" alt="gambar1">
+            <h3>Suasana Belajar Paling Seru</h3>
+            <p>Apapun yang berkaitan dengan kelas ini, aku akan menyukainya, kelas terindah dan selamanya akan tetap indah.</p>
+        </div>
+
+        <div class="card">
+            <img src="kelas2.jpg" alt="gambar2">
+            <h3>Tampil Stylish Setiap Hari</h3>
+            <p>Kita kurangi yang basa basi utamakan yang pasti pasti membanggakan buna dan nama kelas.</p>
+        </div>
+
+        <div class="card">
+            <img src="kelas6.jpg" alt="gambar3">
+            <h3>Top 7 cewek tercantik di kelas</h3>
+            <p>Kita cuma manusia biasa, merubah diri sendiri saja kadang kewalahan, apalagi mencoba merubah orang lain.</p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    Ikuti Kami di Sosial Media
+    <div class="sosmed">
+        <a href="https://instagram.com/msoplio_elvfive" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="instagram">
+        </a>
+    </div>
+    © 2025 Kelas Hot News 11 Lima
+</footer>
+
+</body>
+</html>
